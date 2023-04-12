@@ -1,0 +1,29 @@
+{
+  "name": "create-npm-package-using-typscript",
+  "version": "1.0.0",
+  "description": "A library to colorify your console log",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build" : "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suryapratap5/suryapratap-colorify.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Surya pratap <suryapratapsoni5@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suryapratap5/suryapratap-colorify/issues"
+  },
+  "homepage": "https://github.com/suryapratap5/suryapratap-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": ["lib/**/*"]
+}
